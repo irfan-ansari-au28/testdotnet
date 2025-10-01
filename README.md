@@ -31,8 +31,8 @@ git add .
 git commit -m "feat(component): description of what you did"
 
 # Keep your branch updated (do this daily!)
-git fetch origin
-git rebase origin/main
+git fetch origin              # Get latest info from GitHub
+git rebase origin/main        # Rebase against REMOTE main (not local)
 ```
 
 ### **3. Before Creating PR**
